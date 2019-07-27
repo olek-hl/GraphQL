@@ -1,0 +1,31 @@
+{
+  "name": "graphql_chat",
+  "version": "1.0.0",
+  "description": "GraphQL chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olek-hl/GraphQL.git"
+  },
+  "keywords": [
+    "chat",
+    "graphQL",
+    "react"
+  ],
+  "author": "Oleksandr Hlushenok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olek-hl/GraphQL/issues"
+  },
+  "homepage": "https://github.com/olek-hl/GraphQL#readme",
+  "dependencies": {
+    "graphql": "^14.4.2",
+    "graphql-yoga": "^1.18.1",
+    "nodemon": "^1.19.1",
+    "prisma-client-lib": "^1.34.3"
+  }
+}
